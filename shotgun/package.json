@@ -1,0 +1,35 @@
+{
+  "name": "shotgun",
+  "version": "5.2.21",
+  "description": "Shotgun is a UI agnostic command shell. It allows you to quickly and easily write commands and plug them into the shell framework. Unlike most other options modules or command line tools, shotgun does not make any assumptions about the UI. Shotgun could be used as a plain console application or you can combine shotgun with shotgun-client to make terminals on the web!",
+  "main": "./index",
+  "dependencies": {
+    "optimist": "*",
+    "shell-quote": "*",
+    "extend": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "scripts": {
+    "test": "mocha -R tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chevex/shotgun.git"
+  },
+  "keywords": [
+    "command",
+    "line",
+    "cli",
+    "shell",
+    "shotgun",
+    "terminal",
+    "prompt"
+  ],
+  "author": "Alex Ford",
+  "license": "Apache",
+  "readmeFilename": "README.md",
+  "gitHead": "812d49a1ae47cf60c945e14b0bc06542dc940d65"
+}

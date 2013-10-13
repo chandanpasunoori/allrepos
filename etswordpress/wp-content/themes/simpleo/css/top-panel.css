@@ -1,0 +1,44 @@
+#contact-bar {
+	float: left;
+}
+#social-bar {
+	float: right;
+    margin-top: 8px;
+}
+
+#social-bar ul {
+	list-style: none outside none;
+    margin-bottom: 0;
+}
+
+#social-bar ul li {
+	float: left;
+    margin-left: 3px;
+	list-style-type: none !important;
+}
+
+#info-box {
+	margin: 0 auto !important;
+    width: 1024px;
+
+}
+
+#contact-bar p {
+	display: inline-block;
+}
+
+#contact-bar .mail {
+	margin-left: 10px;
+}
+
+#contact-bar a {
+	text-decoration: none;
+}
+
+#contact-bar .phone {
+	margin-left: 10px;
+}
+
+#social-bar ul li a i {
+	font-size: 18px;
+}

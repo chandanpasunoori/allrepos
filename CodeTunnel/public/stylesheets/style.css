@@ -1,0 +1,332 @@
+.container {
+  position: relative;
+}
+.translucentFrame {
+  background: #9fdf9f;
+  opacity: 0.35;
+  -moz-opacity: 0.35;
+  -webkit-opacity: 0.35;
+  -o-opacity: 0.35;
+  filter: alpha(opacity=35);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: 15px 100px 15px 100px;
+  -moz-border-radius: 15px 100px 15px 100px;
+  -webkit-border-radius: 15px 100px 15px 100px;
+  -o-border-radius: 15px 100px 15px 100px;
+  -webkit-transition: background-color 10s linear;
+  -moz-transition: background-color 10s linear;
+  -o-transition: background-color 10s linear;
+  transition: background-color 10s linear;
+}
+.contentFrame {
+  position: relative;
+  z-index: 2;
+  overflow-x: auto;
+}
+.contentFrame img {
+  max-width: 100%;
+}
+body {
+  background: #000;
+  color: #e7f7e7;
+  font-size: 15px;
+  font-family: Helvetica;
+  -webkit-transition: color 10s linear, background-color 10s linear;
+  -moz-transition: color 10s linear, background-color 10s linear;
+  -o-transition: color 10s linear, background-color 10s linear;
+  transition: color 10s linear, background-color 10s linear;
+}
+#frame {
+  position: relative;
+  margin: 15px auto auto auto;
+  max-width: 1000px;
+}
+#console {
+  -webkit-transition: color 10s linear;
+  -moz-transition: color 10s linear;
+  -o-transition: color 10s linear;
+  transition: color 10s linear;
+}
+#footer {
+  margin-top: 50px;
+}
+.backgroundImage {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 0;
+  opacity: 0.075;
+  -moz-opacity: 0.075;
+  -webkit-opacity: 0.075;
+  -o-opacity: 0.075;
+  filter: alpha(opacity=8);
+}
+.profilePictureRight {
+  width: 50px;
+  margin-left: 10px;
+  float: right;
+}
+.profilePictureLeft {
+  width: 50px;
+  margin-right: 10px;
+  float: left;
+}
+#banner {
+  text-align: center;
+  font-size: 55px;
+  padding: 15px;
+  font-family: Consolas, "Courier New";
+  border-bottom: solid 1px #0a1d0a;
+  -webkit-transition: border-color 10s linear;
+  -moz-transition: border-color 10s linear;
+  -o-transition: border-color 10s linear;
+  transition: border-color 10s linear;
+}
+#banner a {
+  display: inline-block;
+}
+#banner img {
+  height: 200px;
+  width: auto;
+  display: inline-block;
+}
+#navigation {
+  margin: 0;
+  padding: 15px;
+}
+#navigation li {
+  display: inline;
+}
+#navigation li.nav {
+  margin-right: 35px;
+  font-size: 17px;
+  font-weight: bold;
+}
+#content {
+  clear: both;
+  padding: 25px;
+  overflow-x: auto;
+  line-height: 1.5;
+}
+.postContent img {
+  border-radius: 7.5px 30px 7.5px 30px;
+  -moz-border-radius: 7.5px 30px 7.5px 30px;
+  -webkit-border-radius: 7.5px 30px 7.5px 30px;
+  -o-border-radius: 7.5px 30px 7.5px 30px;
+  border: solid 2px #000;
+}
+pre {
+  padding: 15px;
+  background: #111;
+  border-radius: 7.5px 30px 7.5px 30px;
+  -moz-border-radius: 7.5px 30px 7.5px 30px;
+  -webkit-border-radius: 7.5px 30px 7.5px 30px;
+  -o-border-radius: 7.5px 30px 7.5px 30px;
+  max-height: 750px;
+  overflow: auto;
+  line-height: 1;
+}
+pre code {
+  padding: 0;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+}
+code {
+  padding: 0 3px 0 3px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  font-family: Consolas, "Courier New";
+}
+blockquote {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  max-height: 750px;
+  overflow: auto;
+  font-style: italic;
+  padding: 0 10px 0 10px;
+}
+input,
+textarea {
+  background: transparent;
+  border: dashed 1px #b7e7b7;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 10px;
+  color: #d4f1d4;
+  -webkit-transition: color 10s linear;
+  -moz-transition: color 10s linear;
+  -o-transition: color 10s linear;
+  transition: color 10s linear;
+}
+hr {
+  border: solid 1px #0a1d0a;
+}
+a,
+a:visited {
+  color: #b7e7b7;
+  text-decoration: none;
+  -webkit-transition: color 10s linear;
+  -moz-transition: color 10s linear;
+  -o-transition: color 10s linear;
+  transition: color 10s linear;
+}
+a:hover {
+  text-decoration: underline;
+}
+.postTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+.postDate,
+.commentDate {
+  font-style: italic;
+  font-size: 13px;
+}
+.managePost {
+  font-size: 13px;
+}
+.comment {
+  padding: 50px 25px 50px 25px;
+}
+.commentContainer {
+  margin: 12.5px 0 12.5px;
+}
+.commentContent {
+  padding-top: 5px;
+  clear: both;
+}
+.postSummaryContent {
+  padding: 50px 25px 50px 25px;
+}
+.postSummary {
+  margin-bottom: 15px;
+}
+.pageControls {
+  clear: both;
+  margin-bottom: 15px;
+}
+.pageControls .pageLink {
+  margin-right: 10px;
+}
+.right {
+  float: right;
+  text-align: right;
+}
+.left {
+  float: left;
+  text-align: left;
+}
+.button {
+  padding: 3px 5px 3px 5px;
+  color: #184818 !important;
+  background-color: #b7e7b7;
+  border: none;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -o-border-radius: 25px;
+  -webkit-transition: background-color 10s linear;
+  -moz-transition: background-color 10s linear;
+  -o-transition: background-color 10s linear;
+  transition: background-color 10s linear;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #308f30;
+  color: #f1faf1 !important;
+  text-decoration: none;
+}
+.preview {
+  padding: 50px 25px 50px 25px;
+}
+.auth {
+  margin: 15px;
+  display: inline-block;
+}
+.color0 {
+  color: #df9f9f !important;
+}
+.color1 {
+  color: #dfaf9f !important;
+}
+.color2 {
+  color: #dfbf9f !important;
+}
+.color3 {
+  color: #dfcf9f !important;
+}
+.color4 {
+  color: #dfdf9f !important;
+}
+.color5 {
+  color: #cfdf9f !important;
+}
+.color6 {
+  color: #bfdf9f !important;
+}
+.color7 {
+  color: #afdf9f !important;
+}
+.color8 {
+  color: #9fdf9f !important;
+}
+.color9 {
+  color: #9fdfaf !important;
+}
+.color10 {
+  color: #9fdfbf !important;
+}
+.color11 {
+  color: #9fdfcf !important;
+}
+.color12 {
+  color: #9fdfdf !important;
+}
+.color13 {
+  color: #9fcfdf !important;
+}
+.color14 {
+  color: #9fbfdf !important;
+}
+.color15 {
+  color: #9fafdf !important;
+}
+.color16 {
+  color: #9f9fdf !important;
+}
+.color17 {
+  color: #af9fdf !important;
+}
+.color18 {
+  color: #bf9fdf !important;
+}
+.color19 {
+  color: #cf9fdf !important;
+}
+.color20 {
+  color: #df9fdf !important;
+}
+.color21 {
+  color: #df9fcf !important;
+}
+.color22 {
+  color: #df9fbf !important;
+}
+.color23 {
+  color: #df9faf !important;
+}

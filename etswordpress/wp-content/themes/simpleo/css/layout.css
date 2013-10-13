@@ -1,0 +1,467 @@
+#grid-container{
+	width: 100%;
+}
+
+#branding {
+	padding-bottom: 30px;
+}
+
+#boxed,
+.boxed {
+	margin: 0 auto !important;
+    width: 1024px;
+}
+
+.page-header {
+	margin: 30px 0;
+}
+
+#header,
+#page-header-box {
+	margin: 0 auto !important;
+    width: 1024px;
+}
+
+#logo {
+    float: left;
+}
+
+#logo a {
+	text-decoration: none;
+}
+
+#logo h5 {
+	margin: 5px 0;
+}
+
+#content-holder1,
+#content-holder2,
+#content-holder3,
+#content-holder4,
+#content-holder5 {
+    margin: 0 auto;
+    padding: 20px 0px;
+    width: 1024px;
+}
+#contact-form {
+    margin: 0 auto;
+	width: 90%;
+	padding: 20px;
+}
+
+#conatact-form,
+#content-holder7 {
+    margin: 0 auto;
+	width: 1024px;
+}
+
+#content-holder1 .reading-box {
+    margin: 0 20px;
+}
+
+#content-holder4 .title {
+    margin-bottom: 15px;
+}
+
+#content-holder3 .title {
+	margin: 0 20px;
+}
+
+#post-area {
+	margin: 0 auto !important;
+    width: 1024px;
+	overflow: hidden;
+}
+
+#portfolio {
+	margin: 10px auto !important;
+    width: 1024px;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+#post-frame {
+	width: 73%;
+}
+
+#sidebar-frame {
+	width: 25%;
+	
+}
+
+#page-header-wrap  {
+	margin: 30px 0;
+}
+
+.page-header {
+	min-height: 90px;
+	background-color: #ffffff;
+}
+
+.page-header h1 {
+    display: inline-block;
+    font-weight: 700;
+    height: 90px;
+    line-height: 90px;
+    margin: 0;
+    min-width: 100px;
+	color: #ffffff;
+	float: left;
+}
+.page-header h2:before {
+    border-color: transparent #ffffff transparent transparent;
+    border-style: solid;
+    border-width: 0 22px 22px 0;
+    content: "";
+    display: block;
+    height: 0;
+    left: -18px;
+    position: absolute;
+    top: 40%;
+    width: 0;
+}
+
+.page-header h2 {
+    display: inline-block;
+    font-size: 24px !important;
+    font-weight: 300;
+    height: 87px;
+    line-height: 90px;
+    margin: 0;
+    max-width: 836px;
+    padding: 0 30px;
+    position: relative;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+
+.page-header h1 i.icon-star-empty,
+.page-header h1 i.icon-sun {
+	margin-left: 30%
+}
+
+#content-holder5 .fearute-text {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    line-height: 64px;
+    margin: 15px 0 5px;
+    padding: 0;
+    vertical-align: top;
+}
+
+#content-holder5 img,
+#content-holder5 i {
+    display: inline;
+    font-size: 54px;
+    line-height: 1;
+    margin: 0 19px 0 0;
+    opacity: 0.4;
+}
+
+#key-features-wrap {
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.reviews .fp_testimony {
+	background-color: #EEEEEE;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 30px;	
+	margin-top: 10px;
+}
+
+#content-holder4 .reviews {
+	min-height: 180px;
+	margin: 0 20px;
+}
+
+#testimony-wrap {
+	background-color: #ffffff;
+}
+
+#content-holder6 #contactForm .left-panel {
+	width: 30.9645%;
+	display: block;
+    float: left;
+    min-height: 30px;
+}
+
+#content-holder6 #contactForm .right-panel {
+	width: 65.4822%;
+	display: block;
+    float: left;
+    margin-left: 3.5533%;
+    min-height: 30px;
+}
+
+#contact-form .wpcf7-form p,
+#content-holder6 #contactForm .right-panel p,
+#content-holder6 #contactForm .left-panel p {
+    margin: 0 0 25px;
+    position: relative;
+}
+
+#content-holder6 #contactForm .right-panel p label,
+#content-holder6 #contactForm .left-panel p label {
+    display: block;
+    font-size: 1.1em;
+    margin: 0 0 16px;
+}
+
+#contact-form .wpcf7-form p span.wpcf7-form-control-wrap,
+#content-holder6 #contactForm .right-panel p span,
+#content-holder6 #contactForm .left-panel p span {
+	display: block;
+	position: relative;
+}
+
+#contact-form .wpcf7-form p span.wpcf7-form-control-wrap {
+	margin-top: 10px;
+	width: 50%;
+}
+
+#contact-form .wpcf7-form p span.wpcf7-form-control-wrap textarea.wpcf7-form-control {
+	width: 150% !important;
+}
+
+#contact-form .wpcf7-form p span.wpcf7-form-control-wrap textarea.wpcf7-form-control,
+#contact-form .wpcf7-form p span.wpcf7-form-control-wrap input.wpcf7-form-control,
+#content-holder6 #contactForm .right-panel p span textarea,
+#content-holder6 #contactForm .left-panel p span input {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #667279;
+	display: block; 
+	margin: 0; 
+	padding: 14px 20px; 
+	width: 100%; 
+	font-size: 16px; 
+	resize: none; 
+	border-radius: 7px; 
+	border: 0;
+    -webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+#contact-form .wpcf7-form p input.wpcf7-submit:hover {
+	color:#54770f !important;
+	background-image: linear-gradient(#AAD75D 0%, #D1E990 100%);
+	background-image: -o-linear-gradient(top, #AAD75D 0%, #D1E990 100%);
+	background-image: -moz-linear-gradient(top, #AAD75D 0%, #D1E990 100%);
+	background-image: -webkit-linear-gradient(top, #AAD75D 0%, #D1E990 100%);
+	background-image: -ms-linear-gradient(top, #AAD75D 0%, #D1E990 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #AAD75D),
+		color-stop(1, #D1E990)
+	);
+	border:1px solid #9dba60;
+	background-color: #AAD75D;
+}
+
+#contact-form .wpcf7-form p input.wpcf7-submit {
+	color:#54770f !important;
+	background-image: linear-gradient(#D1E990 0%, #AAD75D 100%);
+	background-image: -o-linear-gradient(top, #D1E990 0%, #AAD75D 100%);
+	background-image: -moz-linear-gradient(top, #D1E990 0%, #AAD75D 100%);
+	background-image: -webkit-linear-gradient(top, #D1E990 0%, #AAD75D 100%);
+	background-image: -ms-linear-gradient(top, #D1E990 0%, #AAD75D 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #D1E990),
+		color-stop(1, #AAD75D)
+	);
+	border:1px solid #9dba60;
+	background-color: #E9F2D2;
+	display:inline-block;
+	height:43px;
+	line-height:43px;
+	font:13px/43px 'PTSansBold', arial, helvetica, sans-serif;
+	text-transform:uppercase;
+	text-align:center;
+	text-shadow:0 1px 0 #fff;
+	padding:0 30px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+
+}
+
+#content-holder6 #contactForm .right-panel p span textarea {
+	height: 255px;
+}
+
+#content-holder6 #contactForm .right-panel p .contact-error,
+#content-holder6 #contactForm .left-panel p .contact-error {
+	text-align: right;
+	font-size: 10px;
+	width: 200px;
+	float: right;
+	color: #dd3333;
+	margin-top: 5px;
+}
+
+#content-holder6 {
+	margin: 0 20px;
+}
+
+#contact-form-wrap,
+#office-location-wrap {
+	padding-top: 30px;
+}
+
+#office-location-wrap {
+	padding-bottom: 60px;
+	overflow: hidden;
+	background-color: #ffffff;	
+}
+
+#content-holder3 .list_carousel {
+	margin: 20px;
+}
+
+#content-holder7 .office {
+	margin: 0;
+}
+
+#content-holder5 .one_half .feature {
+	margin: 0 20px;
+}
+
+#content-holder7 h3 {
+	margin-bottom: 30px;
+}
+
+#content-holder7 dl.office dt {
+    display: block;
+    padding-top: 5px;
+    width: 140px;
+	position: absolute;
+}
+
+#content-holder7 dl.office dd {
+    line-height: 1.8em;
+    margin: 0;
+    padding: 5px 0 5px 135px;
+    position: relative;
+	color: #666666;
+}
+
+#content-holder7 p.notes1 {
+    font-size: 1.35em;
+    line-height: 1.6em;
+	color: #666666;
+}
+
+#content-holder7 p.notes2 {
+    line-height: 1.8em;
+    margin: 30px 0 0;
+	color: #666666;
+}
+
+#content-holder7 .office dt .ico {
+    font-size: 18px;
+    margin-right: 5px;
+    top: 7px;
+}
+
+#portfolio ul.portfolio-tabs {
+    border-radius: 0 0 0 0;
+    color: #84BD32;
+    float: left;
+    line-height: 32px;
+	margin: 0;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+#portfolio ul li {
+	list-style: none outside none;
+}
+
+#portfolio .portfolio-tabs li {
+    color: #666666;
+    float: left;
+    line-height: 0;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+#portfolio .portfolio-tabs li a {
+    border: 1px solid #f5f5f5;
+    color: #444444;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+}
+
+#portfolio .portfolio-tabs li.active a,
+#portfolio .portfolio-tabs li a:hover {
+    background-color: #1AAFA8;
+    color: #FFFFFF;
+}
+
+.mosaic-block-2-columns {
+    background: url("../images/assets/progress.gif") no-repeat scroll center center #111111;
+    border: 1px solid #F2EFEF;
+    float: left;
+    height: 250px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 490px;
+}
+
+.mosaic-block-3-columns {
+    background: url("../images/assets/progress.gif") no-repeat scroll center center #111111;
+    border: 1px solid #F2EFEF;
+    float: left;
+    height: 182px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 298px;
+}
+
+.mosaic-block-4-columns {
+    background: url("../images/assets/progress.gif") no-repeat scroll center center #111111;
+    border: 1px solid #F2EFEF;
+    float: left;
+    height: 148px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 218px;
+}
+
+.paginate {
+	padding: 20px 0;
+}
+
+.site-description {
+	font-size: 16px !important;
+	font-weight: 600;
+}
+
+#page-title-wrap {
+	background-color: #FFFFFF;
+    margin-bottom: 20px;
+    overflow: hidden;
+	padding: 10px 20px;
+}
+
+.margin10 {
+	margin-left: 10px;
+}

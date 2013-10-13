@@ -1,0 +1,10 @@
+Fine Pro Changelog
+
+****************************
+
+Version 1.0.0.1 (8-30-13)
+- Removed new meta-box options due to unresolved bug that affected some users.
+
+Version 1.0.0.0 (08/22/13)
+- Added new class for metabox options.
+-Initial release.

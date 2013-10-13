@@ -1,0 +1,261 @@
+.post-article .meta-section {
+    position: relative;
+}
+
+.post-article .meta-section {
+	display: block;
+}
+
+.post-article aside:after {
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 40px;
+    width: 0;
+}
+
+.post-article .blog-date div {
+	padding: 20px;
+	color: #FFFFFF;
+}
+
+.post-article aside {
+    height: 128px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 120px;
+	background-color: #1C1C1C;
+}
+
+.post-article .blog-date div span:first-child {
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.post-article .blog-date div span:last-child {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.post-article {
+	background-color: #ffffff;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.post-article .blog-title {
+	display: block;
+    margin: 20px 0 10px;
+	padding: 0 20px;
+}
+
+.post-article p {
+	padding: 0 20px 20px;
+	line-height: 1.5;
+}
+
+.post-article h1,
+.post-article h2,
+.post-article h3,
+.post-article h4,
+.post-article h5,
+.post-article h6,
+.post-article ul,
+.post-article ol {
+	padding: 0 20px 20px;
+}
+
+.post-article .blog-title h3 {
+	padding: 0;
+	line-height: 28px;
+	word-wrap:break-word;
+}
+
+.post-article .flexslider ul {
+	padding: 0;
+}
+
+.title-meta {
+	overflow: hidden;
+}
+
+.post-article .blog-title .icon-edit,
+.post-article .blog-title .icon-link,
+.post-article .blog-title .icon-quote-right,
+.post-article .blog-title .icon-film,
+.post-article .blog-title .icon-picture,
+.post-article .blog-title .icon-camera,
+.post-article .blog-title .icon-music{
+	margin-right: 12px;
+}
+
+.post-article .title-meta .blog-posted-by,
+.post-article .title-meta .blog-socials {
+    float: left;
+    margin-top: 6px;
+	padding-left: 20px;
+}
+
+.post-article .title-meta .blog-posted-tags {
+    float: right;
+    margin-top: 6px;
+	padding-right: 20px;
+	padding-left: 20px;
+	min-height: 36px;
+
+}
+
+.post-article .title-meta .blog-socials a {
+	float: left;
+	font-size: 28px;
+    margin-right: 15px;
+}
+
+.post-article .title-meta .left-border {
+    line-height: 28px;
+}
+
+.post-article .title-meta .blog-posted-by .icon-user {
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.post-article .title-meta .blog-posted-tags .icon-tags {
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.post-article .title-meta .blog-posted-tags .tags-list a {
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 8px;
+    transition: background-color 0.2s ease 0s, color 0.2s ease 0s;
+    background: url("../images/assets/tag.png") no-repeat scroll 12px center #1C1C1C;
+    padding: 6px 12px 6px 30px;
+	border: 1px solid #333333;
+}
+
+.post-article .title-meta .blog-posted-tags .tags-list a:hover {
+	background-color: #1e73be;
+}
+
+.post-article .meta-wrap {
+	border-bottom: 1px solid #ECECEC;
+    border-top: 1px solid #ECECEC;
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.post-article .meta-wrap .icon-calendar,
+.post-article .meta-wrap .icon-user,
+.post-article .meta-wrap .icon-comments-alt,
+.post-article .meta-wrap .icon-book {
+	margin-right: 10px;
+}
+
+.post-article .meta-section iframe {
+	display: block;
+}
+
+.post-article .link-box,
+.post-article .quote-text {
+	padding: 20px;
+}
+
+.post-article .quote-author {
+	padding: 0 20px;
+}
+
+/* Pagination */
+.nav-links {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 12px 0;
+    text-transform: uppercase;
+	overflow: hidden;
+}
+
+.nav-links a {
+	margin-right: 20px;
+}
+
+.pagination {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 30px;
+    padding: 12px 0;
+    text-transform: uppercase;
+	overflow: hidden;
+}
+ 
+.pagination span, .pagination a {
+	display:block;
+	float:left;
+	margin: 2px 2px 2px 0;
+	padding:6px 9px 5px 9px;
+	text-decoration:none;
+	width:auto;
+	color:#fff !important;
+	background: #666666;
+}
+ 
+.pagination a:hover{
+	color:#fff;
+	background: #333333;
+}
+ 
+.pagination .current{
+	padding:6px 9px 5px 9px;
+	background: #333333;
+	color:#fff;
+}
+
+#sidebar-frame .textwidget {
+	padding: 0 10px;
+}
+
+.post-article .sorry {
+	margin: 20px;
+}
+
+.content-boxes h4 {
+	padding: 0 !important;
+}
+
+.paginate a {
+	color: #ffffff;
+}
+
+#page-title-wrap h4 {
+	line-height: 28px;
+}
+
+.nav-links a {
+	color: #ffffff;
+}
+
+.page-links {
+	margin: 20px;
+}
+
+
+
+
+
+

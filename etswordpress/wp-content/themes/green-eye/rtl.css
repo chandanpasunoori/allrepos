@@ -1,0 +1,327 @@
+/*
+Theme Name: GREEN EYE
+Theme URI: http://d5creation.com/2013/09/30/green-eye/
+
+Author: D5 Creation
+Author URI: http://d5creation.com/
+
+Description: GREEN EYE is a CSS3 Powered and WordPress 3.6 Ready Responsive Theme for Environment Friendly Institutions of Companies running on Green Energy. Customizable Background and other options will give the WordPress Driven Site an attractive look.  GREEN EYE is Responsive, Super Elegant and Professional Theme which will be adjusted automatically with all smart devices.  Full Wide Template can be used for showing showcase or other pages. You can Visit the GREEN EYE Demo <a href="http://demo.d5creation.com/wp/themes/green-eye/" target="_blank"><strong>Here</strong></a>. Minimum Requirement: WordPress 3.5
+
+Version: 1.3.4
+
+Tags: green, light, white, two-columns, right-sidebar, fixed-width, custom-header, custom-background, custom-menu, threaded-comments, sticky-post, rtl-language-support, front-page-post-form, full-width-template, theme-options 
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+GREEN WordPress Theme, Copyright 2013: D5 Creation (www.d5creation.com)
+GREEN is distributed under the terms of the GNU GPL
+
+Text Domain: green
+
+*/
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+caption, th, td {
+	text-align:right;
+}
+
+.alignnone {
+	margin:5px 0 20px 20px;
+}
+
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+
+a img.alignnone {
+	margin:5px 0 20px 20px;
+}
+
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+
+a img.aligncenter {
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.wp-caption.alignnone {
+	margin:5px 0 20px 20px;
+}
+
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+
+img.site-logol {
+	float:right;
+}
+
+img.site-logos {
+	float:right;
+	float:right;
+}
+
+#content {
+	float:right;
+}
+
+#left-sidebar {
+	float:left;
+}
+
+#social {
+	float:right;
+}
+
+.facebook-link,
+.twitter-link,
+.gplus-link,
+.li-link,
+.feed-link {
+	float:right;
+}
+
+.small #green-main-menu {
+	float:left;
+}
+
+.m-menu li {
+	float:right;
+}
+
+.m-menu ul li:hover > ul {
+	right:189px;
+	left: auto;
+}
+
+.m-menu ul {
+	background:-webkit-gradient(linear, right top, right bottom, color-stop(0%,#0d7200), color-stop(37%,#0f8200), color-stop(100%,#045600));
+}
+
+.m-menu ul ul {
+	right:250px;
+	left: auto;
+}
+
+.m-menu ul a {
+	text-align:right;
+}
+
+.m-menu ul a:hover {
+	background:-webkit-gradient(linear, right top, right bottom, color-stop(0%,#cfd3d0), color-stop(42%,#e8eae8), color-stop(99%,#b9ccba));
+}
+
+.m-menu ul li:first-child > a:after {
+	right:30px;
+	border-right:5px solid transparent;
+	border-left:5px solid transparent;
+	left: auto;
+}
+
+.m-menu ul ul li:first-child a:after {
+	right:-8px;
+	border-right:0;
+	border-left:8px solid #0a8a03;
+	left: auto;
+}
+
+.m-menu ul ul li:first-child a:hover:after {
+	border-left-color:#EEEEEE;
+}
+
+.small .m-menu .menu-parent-item {
+	background:url("images/listiconfb.png") no-repeat scroll left 27px/7px 9px transparent;
+}
+
+.large .m-menu .menu-parent-item {
+	background:url("images/listiconfb.png") no-repeat scroll left 13px/10px 10px transparent;
+}
+
+.small .m-menu ul .menu-parent-item, .large .m-menu ul .menu-parent-item {
+	background:url("images/listiconf.png") no-repeat scroll left center/7px 9px transparent;
+}
+
+#footer-widget {
+	float:right;
+}
+
+#footer-sidebar .widgets {
+	margin-right:6%;
+	float:right;
+	margin-left: auto;
+}
+
+#footer-sidebar .widget li {
+	background:url("images/listiconf.png") no-repeat scroll right 7px/10px 10px transparent;
+	padding:5px 17px 5px 0;
+}
+
+ul, ol {
+	margin:0 25px 10px 0;
+}
+
+address {
+	text-align:left;
+}
+
+input[type="text"],
+textarea, input#s,
+input[type="password"] {
+	border-right:1px solid #999999;
+	border-left:1px solid #FFFFFF;
+}
+
+button, a.jms-link,
+input[type="reset"],
+input[type="button"],
+input[type="submit"] {
+	background-image:-webkit-gradient(linear, right top, right bottom, from(#4ba614), to(#008c00));
+}
+
+.post-container .sticky .postmetadataw {
+	background-position: left top;
+}
+
+#ft-title-slide {
+	left:10px;
+	right: auto;
+}
+
+#ft-title-slide blockquote {
+	text-align:left;
+	border-right:10px solid #999999;
+	border-left:10px solid #999999;
+}
+
+#ft-title-slide blockquote:before {
+	margin-left:0;
+	margin-right: auto;
+}
+
+#ft-title-slide blockquote:after {
+	margin-right:0;
+	margin-left: auto;
+}
+
+blockquote, q {
+	border-right:10px solid #47BC4A;
+	border-left: none;
+}
+
+blockquote:before, q:before {
+	margin-left:.20em;
+	margin-right: auto;
+}
+
+blockquote:after, q:after {
+	margin-right:.20em;
+	margin-left: auto;
+}
+
+#container .attachment-thumbnail {
+	margin:0px 0 10px 15px;
+	float:right;
+}
+
+h1.page-title,
+h1.arc-post-title {
+	text-align:right;
+}
+
+h2.post-title,
+h2.comments,
+h3#reply-title,
+h2.post-title-color {
+	text-align:right;
+}
+
+.floatright {
+	float:right;
+	text-align:right;
+}
+
+.floatleft {
+	float:left;
+	text-align:left;
+}
+
+#page-nav .alignleft {
+	text-align:left;
+}
+
+#page-nav .alignright {
+	text-align:right;
+}
+
+#commentsbox img.avatar {
+	left:-5px;
+	right: auto;
+}
+
+#commentsbox ul.children {
+	padding:5px 20px 0 0;
+}
+
+#client li, #client ul {
+	float:right;
+}
+
+.simply-scroll-btn-right {
+	background:url("images/arrow_right.png") no-repeat scroll 0 0 transparent;
+	right:-20px;
+	left: auto;
+}
+
+.simply-scroll-btn-left {
+	background:url("images/arrow_left.png") no-repeat scroll 0 0 transparent;
+	left:-20px;
+	right: auto;
+}
+
+ul.lboxd {
+	float:left;
+}
+
+a.loginicon {
+	float:left;
+}
+
+ul.lboxd ul {
+	padding:20px 20px 20px 40px;
+	left:-20px;
+	right: auto;
+}
+
+#header-fpage input#s {
+	background:url("images/search.png") no-repeat scroll left center/42px auto transparent;
+}
+
+#header-fpage input#s:focus {
+	border-right:1px solid #999999;
+	border-left:1px solid #FFFFFF;
+}
+
+#header-fpage #searchform {
+	float:left;
+}
+

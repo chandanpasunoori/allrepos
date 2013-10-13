@@ -1,0 +1,154 @@
+#social-panel,
+.copyright-wrap,
+#footer-box {
+	margin: 0 auto;
+    width: 1024px;
+}
+
+#prefooter {
+    margin: 0 20px;
+}
+
+#prefooter .fl-l {
+    float: left;
+}
+
+#prefooter ul {
+	margin: 10px 0 !important;
+}
+
+#prefooter .fl-r {
+    float: right;
+}
+
+#footer {
+	padding-bottom: 40px;
+}
+
+.links li:first-child {
+    border-left: 0 none;
+    padding-left: 0;
+}
+
+.links li {
+    border-left: 1px solid #ffffff;
+    display: inline-block;
+    line-height: 14px;
+    padding: 0 7px 0 10px;
+}
+
+#social-bar-footer {
+    float: right;
+    margin-right: 20px;
+	margin-left: 20px;
+    margin-top: 15px;
+}
+
+#social-bar-footer ul li {
+    float: left;
+    margin-left: 3px;
+}
+
+.footer-widget-col ul li,
+#social-bar-footer ul li {
+	list-style-type: none;
+}
+
+.footer-widget-col ul {
+	margin-left: 0;
+}
+
+.footer-area {
+    margin: 20px;
+}
+
+.footer-block {
+	float: left;
+    margin-right: 2.5%;
+	width: 22.5%;
+}
+
+.last-block {
+	float: left;
+    margin-right: 0;
+	width: 22.5%;
+
+}
+
+.footer-area .tagcloud a {
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 8px;
+    transition: background-color 0.2s ease 0s, color 0.2s ease 0s;
+	border: 1px solid #333333;
+}
+.footer-area .tagcloud a {
+    background: url("../images/assets/tag.png") no-repeat scroll 12px center #1C1C1C;
+    font-size: 12px !important;
+    padding: 6px 12px 6px 30px;
+}
+
+.footer-area .tagcloud a:hover {
+	background-color: #8DB529;
+}
+
+.footer-area h4 {
+	text-transform: uppercase;
+	margin: 0 0 16px;
+}
+
+.footer-widget-col ul li {
+	border-top: 1px dotted #444444;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+.footer-widget-col ul li:first-child {
+	border-top: none;
+}
+
+.footer-widget-col .textwidget,
+.footer-widget-col ul li a {
+	color: #DDDDDD;
+}
+
+.footer-widget-col .textwidget {
+	line-height: 1.5;
+}
+
+.copyright-wrap span.left {
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    opacity: 0.4;
+    padding: 20px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.copyright-wrap span.right {
+    color: #FFFFFF;
+    float: right;
+    font-size: 12px;
+    opacity: 0.4;
+    padding: 20px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.copyright-wrap span a {
+	color: #FFFFFF;
+}
+
+#copyright {
+	overflow: hidden;
+}
+
+#social-bar-footer ul li a i {
+	font-size: 28px;
+}
+
+#footer #searchform {
+	padding: 0 !important;
+}

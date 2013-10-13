@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elements Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-19 16:22:25 UTC\n"
+"PO-Revision-Date: 2013-06-24 17:46+0530\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
+"Language-Team: German, Germany\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../../init.php
+msgid "Boxes Lite"
+msgstr "Boxen Lite"
+
+#: ../../init.php
+msgid "Portfolio Lite"
+msgstr "Portfolio Lite"
+
+#: ../../init.php
+msgid "Post Page"
+msgstr "Post-Seite"
+
+#: ../../init.php
+msgid "Slider Lite"
+msgstr "Schieberegler Lite"
+
+#: ../../init.php
+msgid "Twitter Bar"
+msgstr "Twitter Balken"
+
+#: ../../init.php
+msgid "Page"
+msgstr "Seite"
+
+#: ../../twitter-bar.php
+msgid "No tweets to display"
+msgstr "Keine Tweets vorhanden"
+
+#: ../../twitter-bar.php
+msgid "Error retrieving tweets"
+msgstr "Fehler beim Abrufen der tweets"
+
+#: ../../twitter-bar.php
+msgid "Twitter API Options"
+msgstr "Twitter API-Optionen"
+
+#: ../../twitter-bar.php
+msgid "Edit Twitter API"
+msgstr "Twitter API bearbeiten"
+
+#: ../../twitter-bar.php
+msgid "Create your Twitter App here"
+msgstr "Erstellen Sie hier Ihre Twitter App"
+
+#: ../../twitter-bar.php
+msgid "Complete all parts of the form and create your application"
+msgstr "Alle Teile des Formulars abzuschließen und Ihre Anwendung zu erstellen"
+
+#: ../../twitter-bar.php
+msgid "On the next page click on the button Create my access token"
+msgstr ""
+"Erstellen Sie auf der nächsten Seite klicken Sie auf die Schaltfläche mein "
+"Zugangs-token"
+
+#: ../../twitter-bar.php
+msgid "Now take the details and fill out the form below"
+msgstr ""
+"Jetzt nehmen Sie die Details und füllen Sie das untenstehende Formular aus"
+
+#: ../../twitter-bar.php
+msgid "Save your options"
+msgstr "Speichern Sie Ihre Optionen"
+
+#: ../../twitter-bar.php
+msgid "Create a Twitter App"
+msgstr "Erstellen Sie eine Twitter-App"
+
+#: ../../twitter-bar.php
+msgid "Consumer Key"
+msgstr "Consumer Key"
+
+#: ../../twitter-bar.php
+msgid "Consumer Secret"
+msgstr "Verbraucher-Geheimnis"
+
+#: ../../twitter-bar.php
+msgid "Access Token"
+msgstr "Zugangs-Token"
+
+#: ../../twitter-bar.php
+msgid "Access Token Secret"
+msgstr "Access Token Secret"
+
+#: ../../twitter-bar.php
+msgid "Twitter Handle"
+msgstr "Twitter Name"

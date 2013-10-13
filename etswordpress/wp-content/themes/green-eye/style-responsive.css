@@ -1,0 +1,36 @@
+/* GREEN EYE Theme by D5 Creation, www.d5creation.com
+/* =Responsive Design 
+-------------------------------------------------------------- */
+@media screen and (max-width:801px){
+body { max-width:100%; min-width:0; }
+#container,
+#content-full,
+.conwidth,
+#footer,
+#footer-sidebar,
+#footer-content,
+#creditline,
+#heading,
+.heading-desc{max-width:100%;min-width:0; height: auto; padding: 0 5px;}
+img.site-logol { float: none; margin: 0 auto; display: block;}
+#container { margin: 120px auto 40px; width: 100%; }
+#header.large { width:100%; }
+.header-content, #header-fpage, #green-main-menu { width:100%; } 
+#header-fpage { height: 205px; padding: 0 5px; }
+#header.large { padding: 0 5px; }
+#green-main-menu { float: none; max-width:100%; width:100%; text-align: center; }
+.menu-main-menu-container { display: inline-block; }
+.small #green-main-menu .menu-main-menu-container { margin: 50px auto -20px; float: none; }
+.small { height:auto; }
+.m-menu li > ul{display:none;}
+.m-menu { display: list-item; }
+#iebcontent { width: 100%; margin: 0 auto; height: auto;}
+#iebanner { height: auto; width: 100%; display: block; overflow: hidden; padding: 0 5px; }
+#iebcontent h3.ibcon { margin: 0; padding: 60px 0 10px; }
+#iebcontent p.ibcon { position: relative;  }
+#iebcontent img.ibcon { float: right;  }
+#iefc { width:50%; float: left; }
+#iesc { width:50%; float: right; }
+a.jms-link {  display: inline-block;  margin-top: 40px;  padding: 10px 20px; }
+}
+

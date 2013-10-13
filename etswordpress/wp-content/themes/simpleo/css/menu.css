@@ -1,0 +1,127 @@
+#site-navigation {
+	float: right;
+}
+
+#site-navigation ul li {
+    display: inline;
+    float: left;
+    list-style: none outside none;
+    position: relative;
+}
+
+#site-navigation ul li a {
+	text-decoration: none;
+	display: block;
+    line-height: 20px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+}
+
+/* level 1 */
+
+#menu-main-navigation { 
+	font-weight: normal; 
+	float: right;
+}
+
+#menu-main-navigation li a:hover, 
+#menu-main-navigation li:hover a { 
+	background: #f4f4f4 repeat-x center 0; 
+	color: #111; 
+}
+
+#menu-main-navigation li a:hover, 
+#menu-main-navigation li:hover a, 
+#menu-main-navigation li.current_page_item a, 
+#menu-main-navigation li.current-menu-ancestor a, 
+#menu-main-navigation li.current-menu-item a { 
+	color: #1e73be; 
+}
+
+/* level 2 */
+
+#menu-main-navigation li:hover > ul { 
+	display: block; 
+}
+
+#menu-main-navigation ul { 
+	display: none; 
+	background: #f4f4f4; 
+	padding: 10px 20px; 
+	width: 140px; 
+	font-weight: normal; 
+	position: absolute; 
+	top: 44px; 
+	left: 0; 
+	z-index: 99999; 
+}
+
+#menu-main-navigation ul li { 
+	background: none; 
+	border: none; 
+	position: relative; 
+	padding-bottom: 0; 
+	float: left; 
+	margin: 0; 
+}
+
+#menu-main-navigation ul li a,
+#menu-main-navigation li:hover ul li a { 
+	background: transparent; 
+	border-bottom: 1px solid #e5e5e5; 
+	color: #444444; 
+	text-shadow: none!important;  
+	line-height: 16px; 
+	font-weight: normal; 
+	float: none; 
+	padding: 10px 0; 
+	width: 140px; 
+	display: block; 
+}
+
+#menu-main-navigation ul li a:hover,
+#menu-main-navigation li:hover ul li a:hover { 
+	color: #111; 
+}
+
+#menu-main-navigation ul.sub-menu li:last-child a { 
+	border-bottom: 0; 
+}
+
+#menu-main-navigation li.current-menu-parent ul li.current_page_item a,
+#menu-main-navigation li.current-menu-parent ul li.current-menu-item a { 
+	color: #111; 
+}
+
+/* level 3 */
+#menu-main-navigation ul ul { 
+	display: none; 
+	width: 140px; 
+	position: absolute; 
+	top: -10px; 
+	left: 140px; 
+}
+
+#menu-main-navigation ul li:last-child ul a { 
+	border-bottom: 1px solid #e5e5e5!important; 
+}
+
+#menu-main-navigation ul li ul li:last-child a { 
+	border-bottom: 0!important; 
+}
+
+.tinynav {
+    display: none;
+}
+
+#menu-main-navigation ul {
+	margin-left: 5px;
+}
+
+#logo {
+	width: 25%;
+}
+
+#site-navigation.main-navigation {
+	width: 75%;
+}

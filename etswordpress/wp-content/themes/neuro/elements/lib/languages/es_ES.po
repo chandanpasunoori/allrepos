@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elements Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-19 16:22:25 UTC\n"
+"PO-Revision-Date: 2013-06-24 17:46+0530\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
+"Language-Team: Spanish, Spain\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../../init.php
+msgid "Boxes Lite"
+msgstr "Cajas Lite"
+
+#: ../../init.php
+msgid "Portfolio Lite"
+msgstr "Cartera Lite"
+
+#: ../../init.php
+msgid "Post Page"
+msgstr "Publica página"
+
+#: ../../init.php
+msgid "Slider Lite"
+msgstr "Deslizador Lite"
+
+#: ../../init.php
+msgid "Twitter Bar"
+msgstr "Twitter Bar"
+
+#: ../../init.php
+msgid "Page"
+msgstr "Ritmo"
+
+#: ../../twitter-bar.php
+msgid "No tweets to display"
+msgstr "No hay mensajes de twitter para mostrar"
+
+#: ../../twitter-bar.php
+msgid "Error retrieving tweets"
+msgstr "Error al recuperar tweets"
+
+#: ../../twitter-bar.php
+msgid "Twitter API Options"
+msgstr "Opciones de la API de Twitter"
+
+#: ../../twitter-bar.php
+msgid "Edit Twitter API"
+msgstr "Editar la API de Twitter"
+
+#: ../../twitter-bar.php
+msgid "Create your Twitter App here"
+msgstr "Crear su aplicación de Twitter aquí"
+
+#: ../../twitter-bar.php
+msgid "Complete all parts of the form and create your application"
+msgstr "Completar todas las partes de la forma y crear la aplicación"
+
+#: ../../twitter-bar.php
+msgid "On the next page click on the button Create my access token"
+msgstr "En la siguiente página, haga clic en el botón crear mi token de acceso"
+
+#: ../../twitter-bar.php
+msgid "Now take the details and fill out the form below"
+msgstr "Ahora toma el información y rellene el siguiente formulario"
+
+#: ../../twitter-bar.php
+msgid "Save your options"
+msgstr "Guarde sus opciones"
+
+#: ../../twitter-bar.php
+msgid "Create a Twitter App"
+msgstr "Crear una aplicación de Twitter"
+
+#: ../../twitter-bar.php
+msgid "Consumer Key"
+msgstr "Clave del consumidor"
+
+#: ../../twitter-bar.php
+msgid "Consumer Secret"
+msgstr "Secreto del consumidor"
+
+#: ../../twitter-bar.php
+msgid "Access Token"
+msgstr "Token de acceso"
+
+#: ../../twitter-bar.php
+msgid "Access Token Secret"
+msgstr "Secreto de Token de acceso"
+
+#: ../../twitter-bar.php
+msgid "Twitter Handle"
+msgstr "Twitter Mango"

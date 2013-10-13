@@ -1,0 +1,48 @@
+
+Version: 2.4.16
+-----------------------------------------------
+Minor update to options framework, Using core selected and checked functions.
+
+Version: 2.4.15
+--------------------------------------
+Added a new skin
+
+Version: 2.4.14
+--------------------------------------
+Added a new skin
+
+Version: 2.4.13
+--------------------------------------
+Added a new skin
+
+Version: 2.4.12
+--------------------------------------
+Added a new skin
+
+Version: 2.4.11
+--------------------------------------
+Added a new skin
+
+
+Version: 2.4.10
+--------------------------------------
+Added a new skin
+
+Version: 2.4.9
+--------------------------------------
+Added a new skin
+
+
+Version: 2.4.8
+--------------------------------------
+Added a new skin
+
+
+Version: 2.4.7
+--------------------------------------
+Added a new skin
+
+
+Version: 2.4.6
+--------------------------------------
+Added a new skin

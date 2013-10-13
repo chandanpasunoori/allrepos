@@ -1,0 +1,43 @@
+08-27-13 3.5.5
+. better handling of double quoted strings
+. make auth key optional for audit
+. update encoding parameters for signature generation
+. debug jar and maven deployment
+
+07-11-13 3.5.4
+. fixed issue with PAM audit when auth key is set
+. fixed issue in cn1 where global headers were not getting added
+. fixed issue in PAM, where ttl 0 was being considered invalid
+
+07-09-13 3.5.3
+. added constructor for setting iv
+. beta1 of CN1 port
+. added constructor for setting PAM grant TTL (minutes)
+. migrate ULS* methods to PAM* methods
+. first version of scala console
+. fix ant debug-build from any source path
+
+07-01-13 3.5.2
+. Introduced PubnubError class object passing to errorCallback
+. ULS APIs
+. Consolidated CHANGELOG to root of repo
+. set origin feature
+. set cache-busting feature
+
+
+06-07-13
+. better handling in multithreaded environments
+. better debug log handling
+
+02-20-2013 - 800478550d9dfa19ae626ee7fd0f774f35254e1b
+. added additional versioning support for maven
+. jar refactor
+
+02-01-2013 - 8a686c91cb546787a6be7810b96b806c33cf96e7
+. client is now fully asyncronous
+. added enhanced multiplexed subscribe support
+. better error handling added to example app
+. improved keep-alive handling
+. support for chunked responses
+. improved logging
+

@@ -1,0 +1,259 @@
+@media screen and (max-width: 1024px) {
+	#top-panel,
+	#branding,
+	#main,
+	#footer,
+	#copyright,
+	#info-box,
+	#header,
+	#content-holder1,
+	#content-holder2,
+	#content-holder3,
+	#content-holder4,
+	#content-holder5,
+	#content-holder6,
+	#content-holder7,
+	#content-holder8,
+	#social-panel,
+	.footer-area,
+	#footer-box,
+	#copyright,
+	.copyright-wrap,
+	.page-header,
+	#post-area,
+	#post-frame,
+	#portfolio,
+	#conatact-form ,
+	#contact-form-wrap,
+	#content-holder6 #contactForm,
+	#gmap,
+	.your-message,
+	#office-location-wrap  {
+		width: 100% !important;
+	}
+	
+	#content-holder1,
+	#content-holder3,
+	#content-holder4,
+	#content-holder5,
+	#content-holder6,
+	#content-holder7,
+	#content-holder8 {
+		padding: 20px 0 !important;
+		text-align: center;
+	}
+	
+	.woocommerce a.button {
+		width: 100%;	
+	}
+	
+	.post-article ul.products li a img {
+		width: 100% !important;
+		height: 100% !important;
+	}
+	
+	#commentsText {
+		width: 90% !important;
+	}
+	
+	.reading-box .read-desc {
+		width: 98% !important;
+		text-align: center;
+	}
+	
+	.reading-box .button {
+		width: 98% !important;
+		text-align: center !important;
+		padding: 0 !important;
+		margin: 1% !important;
+	}
+	
+	#logo,
+	#contact-bar,
+	.reading-box h2,
+	.reading-box p	{
+		margin-left: 1% !important;
+		margin-right: 1% !important;
+	}
+	
+	#from-blog-wrap {
+		display: none;
+	}
+	
+	.one_half {
+    	width: 98% !important;
+		margin: 1% !important;
+	}
+	
+	.reviews .fp_testimony {
+		width: 98% !important;
+		padding: 0 !important;
+		margin: 1% !important;		
+	}
+	
+	#content-holder4 .reviews {
+    	min-height: 150px !important;
+	}
+	
+	#prefooter {
+		display: none;
+	}
+	
+	#social-bar-footer {
+    	clear: both !important;
+    	margin: 1% !important;
+		text-align: center;
+	}
+	
+	#social-bar-footer ul li a img {
+		width: 18px !important;
+		height: 18px !important;
+	}
+	
+	#social-bar-footer ul {
+		margin: 1% !important;
+		text-align: center;
+	}
+	
+	#social-bar-footer ul li {
+		
+	}
+	
+	#social-panel {
+		text-align: center;
+	}
+	
+	#sidebar-frame {
+		display: none;
+	}
+	
+	#info-box #social-bar {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 798px) {
+	#main {
+		margin-top: 40px !important;
+	}
+	.footer-block {
+		width: 80% !important;
+		margin: 20px 0;
+	}
+	.tinynav { 
+		display: block !important; 
+		width: 90%;
+		margin-top: 10px;
+		float: left;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+	
+	#site-navigation {
+    	text-align: center;
+    	width: 100% !important;
+		margin-right: 0 !important;
+	}
+
+	#info-box #contact-bar {
+		display: none;
+	}	
+	
+	#site-navigation > ul {
+		display: none;
+	}
+	
+	.page-header h1 {
+		display: none !important;
+	}	
+	
+	#page-title-wrap {
+		display: none;
+	}
+	#page-title-wrap h4 {
+		display: none;
+	}
+
+	#logo {
+		width: 100%;
+		text-align: center;	
+	}
+	
+	.columns {
+		margin: 1% !important;
+	}
+	
+	#content-holder2 {
+		padding: 20px 0 !important;
+	}
+	
+	.columns .col {
+		width: 98% !important;
+		margin-left: 1% !important;
+		margin-right: 1% !important;
+		margin-bottom: 2% !important;
+	}
+	
+	#comments #respond #commentform .form-submit #submit,
+	.content-boxes .button {
+		width: 98% !important;
+		text-align: center !important;
+		padding: 0 !important;
+		margin: 1% !important;	
+	}
+	
+	.content-box-wrap .heading {
+		width: 98% !important;
+		margin-left: 1% !important;
+		margin-right: 1% !important;
+		text-align: center;	
+	}
+	
+	.col .heading img {
+		display: none;
+	}
+	
+	#content-holder5 .fearute-text {
+		font-size: 24px !important;
+	}
+	
+	#content-holder5 img, 
+	#content-holder5 i {
+		font-size: 34px !important;
+		margin: 0 19px 0 0 !important;
+	}
+	
+	#logo,
+	#site-navigation {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#info-box #account-set {
+		display: none !important;
+	}
+	
+	#info-box #shopping-cart {
+		width: 100%;
+		text-align: center;
+	}
+	
+	.rs-caption {
+		display: none !important;
+	}
+	
+	.footer-area {
+		display: none !important;
+	}
+	
+	#social-bar-footer {
+		display: none !important;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+	
+}
+
